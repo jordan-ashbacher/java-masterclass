@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch variables",
+            "request": "launch",
+            "mainClass": "variables",
+            "projectName": "hello-world_9281ad88"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
