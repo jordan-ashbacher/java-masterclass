@@ -36,7 +36,7 @@ public class primitives {
         byte byteValue = 69;
         short shortValue = 696;
         int intValue = 6969;
-        long newLongValue = (long) (10000 + (10 * (byteValue + shortValue + intValue)));
+        long newLongValue = (10000L + (10L * (byteValue + shortValue + intValue)));
         System.out.println(newLongValue);
 
 
