@@ -29,6 +29,10 @@ public class primitives {
         System.out.println("Long Min Value = " + minLongValue);
         System.out.println("Long Max Value = " + maxLongValue);
 
+        byte newByte = (byte) (minByteValue / 2);
+
+        short newShort = (short) (minShortValue / 2);
+
 
     }
 }
