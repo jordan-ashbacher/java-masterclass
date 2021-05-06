@@ -12,5 +12,10 @@ public class primitives {
         System.out.println("Overflow MAX value = " + (maxValue + 1));
         System.out.println("Overflow MIN value = " + (minValue - 1));
 
+        byte minByteValue = Byte.MIN_VALUE;
+        byte maxByteValue = Byte.MAX_VALUE;
+        System.out.println("Byte Min Value = " + minByteValue);
+        System.out.println("Byte Max Value = " + maxByteValue);
+
     }
 }
