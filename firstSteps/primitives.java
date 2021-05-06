@@ -17,5 +17,11 @@ public class primitives {
         System.out.println("Byte Min Value = " + minByteValue);
         System.out.println("Byte Max Value = " + maxByteValue);
 
+        short minShortValue = Short.MIN_VALUE;
+        short maxShortValue = Short.MAX_VALUE;
+        System.out.println("Short Min Value = " + minShortValue);
+        System.out.println("Short Max Value = " + maxShortValue);
+
+
     }
 }
