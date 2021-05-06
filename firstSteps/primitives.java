@@ -22,6 +22,13 @@ public class primitives {
         System.out.println("Short Min Value = " + minShortValue);
         System.out.println("Short Max Value = " + maxShortValue);
 
+        long longValue = 100L;
+
+        long minLongValue = Long.MIN_VALUE;
+        long maxLongValue = Long.MAX_VALUE;
+        System.out.println("Long Min Value = " + minLongValue);
+        System.out.println("Long Max Value = " + maxLongValue);
+
 
     }
 }
