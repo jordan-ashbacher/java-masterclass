@@ -12,7 +12,9 @@ public class floatanddouble {
         System.out.println("Double min value = " + minDouble);
         System.out.println("Double max value = " + maxDouble);
         
+        int intValue = 5;
+        float floatValue = 5.25f;
+        double doubleValue = 5.25d;
 
-        
     }
 }
