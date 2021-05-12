@@ -1,13 +1,14 @@
 public class methods {
     public static void main (String[] args) {
-        calculateScore();
-    }
-
-    public static void calculateScore() {
         boolean gameOver = true;
         int score = 800;
         int levelCompleted = 5;
         int bonus = 100;
+        calculateScore(true, 800, 5, 100);
+    }
+
+    public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
+        
 
         if(gameOver) {
             int finalScore = score + (levelCompleted * bonus);
