@@ -32,15 +32,14 @@ public class methods {
     }
 
     public static int calculateHighScorePosition(int score) {
-        int position;
         if (score > 1000) {
-            return position = 1;
+            return 1;
         } else if (score > 500) {
-            return position = 2;
+            return 2;
         } else if (score > 100) {
-            return position = 3;
+            return 3;
         } else {
-            return position = 4;
+            return 4;
         }
     }
 
