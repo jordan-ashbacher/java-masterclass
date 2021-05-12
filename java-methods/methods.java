@@ -4,17 +4,21 @@ public class methods {
         int score = 800;
         int levelCompleted = 5;
         int bonus = 100;
-        calculateScore(gameOver, score, levelCompleted, bonus);
-        calculateScore(true, 1000, 8, 200);
+        System.out.println("Your final score is " + calculateScore(gameOver, score, levelCompleted, bonus)); 
+        System.out.println("Your final score is " + calculateScore(true, 1000, 8, 200));
+    
     }
 
-    public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
+    public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
         
 
         if(gameOver) {
             int finalScore = score + (levelCompleted * bonus);
             finalScore += 1000;
-            System.out.println("Your final score is " + finalScore);
+            // System.out.println("Your final score is " + finalScore);
+            return finalScore;
+        } else {
+            return -1;
         }
     }
 }
