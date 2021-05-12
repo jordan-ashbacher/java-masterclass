@@ -4,7 +4,7 @@ public class methods {
         int score = 800;
         int levelCompleted = 5;
         int bonus = 100;
-        calculateScore(true, 800, 5, 100);
+        calculateScore(gameOver, score, levelCompleted, bonus);
         calculateScore(true, 1000, 8, 200);
     }
 
