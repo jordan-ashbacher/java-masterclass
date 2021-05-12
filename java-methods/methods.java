@@ -6,6 +6,11 @@ public class methods {
         int bonus = 100;
         System.out.println("Your final score is " + calculateScore(gameOver, score, levelCompleted, bonus)); 
         System.out.println("Your final score is " + calculateScore(true, 1000, 8, 200));
+
+        displayHighScorePosition("Jordan", 1500);
+        displayHighScorePosition("Greta", 900);
+        displayHighScorePosition("Kieu", 400);
+        displayHighScorePosition("Eric", 50);
     
     }
 
@@ -21,4 +26,23 @@ public class methods {
             return -1;
         }
     }
+
+    public static void displayHighScorePosition(String name, int score) {
+        System.out.println(name + " is in position " + calculateHighScorePosition(score) + " on the high score chart");
+    }
+
+    public static int calculateHighScorePosition(int score) {
+        int position;
+        if (score > 1000) {
+            return position = 1;
+        } else if (score > 500) {
+            return position = 2;
+        } else if (score > 100) {
+            return position = 3;
+        } else {
+            return position = 4;
+        }
+    }
+
+    
 }
