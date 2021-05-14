@@ -4,4 +4,8 @@ public class Car {
     private String model;
     private String year;
     private String color;
+
+    public void setModel(String model) {
+        this.model = model;
+    }
 }
