@@ -5,22 +5,31 @@ public class BankAccount {
     private String email;
     private String phone;
 
-    public double deposit(double amount) {
-        return balance += amount;
+    public void deposit(double amount) {
+        this.balance += amount;
 
     }
 
-    public double withdraw(double amount) {
+    public void withdraw(double amount) {
         if (amount > this.balance) {
             System.out.println("Insufficient funds");
-            return this.balance;
         } else {
-            return this.balance -= amount;
+            this.balance -= amount;
         }
     }
 
-    public void getBalance() {
-        System.out.println(this.balance);
+    public double getBalance() {
+        return this.balance;
     }
+
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
+    public String setAccountNumber(String accountNumber) {
+        return this.accountNumber = accountNumber;
+    }
+
+
 
 }
