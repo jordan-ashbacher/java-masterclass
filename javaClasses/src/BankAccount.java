@@ -11,16 +11,16 @@ public class BankAccount {
     }
 
     public double withdraw(double amount) {
-        if (amount > balance) {
+        if (amount > this.balance) {
             System.out.println("Insufficient funds");
-            return balance;
+            return this.balance;
         } else {
-            return balance -= amount;
+            return this.balance -= amount;
         }
     }
 
     public void getBalance() {
-        System.out.println(balance);
+        System.out.println(this.balance);
     }
 
 }
