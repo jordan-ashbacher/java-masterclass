@@ -1,9 +1,21 @@
 public class BankAccount {
     private String accountNumber;
-    private double balance = 0;
+    private double balance;
     private String name;
     private String email;
     private String phone;
+
+    public BankAccount() {
+        System.out.println("Empty constructor created");
+    }
+
+    public BankAccount(String accountNumber, double balance, String name, String email, String phone) {
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+        this.name = name;
+        this.email = email;
+        this.phone = phone;
+    }
 
     public void deposit(double amount) {
         this.balance += amount;
