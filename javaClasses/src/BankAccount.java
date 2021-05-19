@@ -6,6 +6,7 @@ public class BankAccount {
     private String phone;
 
     public BankAccount() {
+        this("9999", 0.00, "Default name", "Default email", "Default phone")
         System.out.println("Empty constructor created");
     }
 
