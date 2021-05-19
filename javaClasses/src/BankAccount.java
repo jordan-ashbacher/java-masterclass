@@ -15,6 +15,7 @@ public class BankAccount {
         this.name = name;
         this.email = email;
         this.phone = phone;
+        System.out.println("Account created with customer info");
     }
 
     public void deposit(double amount) {
